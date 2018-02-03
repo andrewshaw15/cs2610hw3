@@ -1,1 +1,57 @@
+body
+{
+	display: flex;
+	flex: auto;
+}
 
+aside
+{
+	flex-direction: column;
+	background-color: black;
+}
+
+h1
+{
+	background-image: url("https://cdn4.dualshockers.com/wp-content/uploads/2017/08/SWBFUE.jpg");
+}
+
+nav
+{
+	border: solid;
+}
+
+img.top
+{
+	vertical-align: text-top;
+}
+
+article
+{
+	background-color: grey;
+}
+
+p
+{
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+a:link
+{
+	color: blue;
+}
+
+a:visited
+{
+	color: purple;
+}
+
+a:hover
+{
+	color: red;
+}
+
+a:active
+{
+	color: yellow;
+}
