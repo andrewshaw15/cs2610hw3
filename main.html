@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" src="https://andrewshaw15.github.io/cs2610hw3/style.css">
+		<link rel="stylesheet" href="style.css">
 		<title>Main</title>
 		<meta name="description" content="This is the main page">
 	</head>
@@ -10,7 +10,7 @@
 		<header>
 			<h1>Main</h1>
 			<nav>
-				<ul>
+				<ul id="nav">
 					<li>
 						<a href="https://andrewshaw15.github.io/cs2610hw3/main">Main</a>
 					</li>
@@ -23,25 +23,33 @@
 				</ul>
 			</nav>
 		</header>
-		<main>
-			<article>
-				<h3>Blog Post #1</h3>
-				<p>Blah blah blah...</p>
-			</article>
-			<article>
-				<h3>Blog Post #2</h3>
-				<p>Blah blah blah...</p>
-			</article>
-			<article>
-				<h3>Blog Post #3</h3>
-				<p>Blah blah blah...</p>
-			</article>
-		</main>
-		<aside>
-			<a href="www.starwars.com">Star Wars Website</a>
-			<a href="www.af.mil">US Air Force Website</a>
-			<a href="www.usu.edu">USU Website</a>
-		</aside>
+		<div id="text">
+			<span id="main">
+				<main>
+					<article>
+						<h3>Blog Post #1</h3>
+						<p>Blah blah blah...</p>
+					</article>
+					<article>
+						<h3>Blog Post #2</h3>
+						<p>Blah blah blah...</p>
+					</article>
+					<article>
+						<h3>Blog Post #3</h3>
+						<p>Blah blah blah...</p>
+					</article>
+				</main>
+			</span>
+			<span id="aside">
+				<aside>
+					<ul>
+						<li><a href="www.starwars.com">Star Wars Website</a></li>
+						<li><a href="www.af.mil">US Air Force Website</a></li>
+						<li><a href="www.usu.edu">USU Website</a></li>
+					</ul>
+				</aside>
+			</span>
+		</div>
 		<footer>
 			<p>Andrew Shaw<br>Copyright 2018</p>
 		</footer>
