@@ -1,11 +1,11 @@
 #main
 {
-	width: 89%;
+	width: 85%;
 }
 
 #aside
 {
-	width: 10%;
+	width: 15%;
 	height: 100%;
 	float: left;
 }
@@ -13,6 +13,11 @@
 #nav > li
 {
 	display: inline;
+}
+
+body
+{
+	background-image: url("https://cdn4.dualshockers.com/wp-content/uploads/2017/08/SWBFUE.jpg");
 }
 
 span
@@ -28,7 +33,6 @@ aside
 
 h1
 {
-	background-image: url("https://cdn4.dualshockers.com/wp-content/uploads/2017/08/SWBFUE.jpg");
 	text-align: center;
 }
 
