@@ -1,23 +1,41 @@
-body
+#main
 {
-	display: flex;
-	flex: auto;
+	width: 89%;
+}
+
+#aside
+{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+#nav > li
+{
+	display: inline;
+}
+
+span
+{
+	display: inline-block;
 }
 
 aside
 {
 	flex-direction: column;
-	background-color: black;
+	background-color: #BBB;
 }
 
 h1
 {
 	background-image: url("https://cdn4.dualshockers.com/wp-content/uploads/2017/08/SWBFUE.jpg");
+	text-align: center;
 }
 
 nav
 {
 	border: solid;
+	text-align: center;
 }
 
 img.top
@@ -27,7 +45,8 @@ img.top
 
 article
 {
-	background-color: grey;
+	background-color: #DDD;
+	text-align: center;
 }
 
 p
