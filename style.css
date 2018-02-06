@@ -18,9 +18,8 @@ body
 
 aside
 {
-	height: 100%;
 	background-color: lightgray;
-	position: fixed;
+	position: absolute;
 	width: 10%;
 }
 
