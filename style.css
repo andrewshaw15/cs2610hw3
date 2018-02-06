@@ -50,6 +50,11 @@ article
 	text-align: center;
 }
 
+article > h4
+{
+	text-align: left;
+}
+
 p
 {
 	flex-wrap: wrap;
